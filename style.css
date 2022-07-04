@@ -22,7 +22,7 @@ h1 {
   margin-bottom: 100px;
 }
 .top-banner-section {
-  background: url("./images/top-banner.png");
+  background: url("/images/top-banner.png");
   background-repeat: no-repeat;
 }
 .dream-section {
