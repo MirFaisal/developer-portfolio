@@ -22,11 +22,11 @@ h1 {
   margin-bottom: 100px;
 }
 .top-banner-section {
-  background-image: url(./images/top-banner.png);
+  background-image: url("/images/top-banner.png");
   background-repeat: no-repeat;
 }
 .dream-section {
-  background-image: url(./images/dream-bg.png);
+  background-image: url("/images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -36,7 +36,7 @@ h1 {
 .experience-area {
   width: 100%;
   margin: auto;
-  background-image: url(./images/exp-bg.png);
+  background-image: url("/images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -58,7 +58,11 @@ h1 {
 }
 .blog-2 {
   border-left: 10px solid;
-  border-image-source: linear-gradient(to bottom, rgb(105, 105, 250), blueviolet);
+  border-image-source: linear-gradient(
+    to bottom,
+    rgb(105, 105, 250),
+    blueviolet
+  );
   border-image-slice: 20;
 }
 .images-space {
