@@ -22,11 +22,11 @@ h1 {
   margin-bottom: 100px;
 }
 .top-banner-section {
-  background-image: url("../images/top-banner.png");
+  background: url("./images/top-banner.png");
   background-repeat: no-repeat;
 }
 .dream-section {
-  background-image: url("../images/dream-bg.png");
+  background: url("./images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -36,7 +36,7 @@ h1 {
 .experience-area {
   width: 100%;
   margin: auto;
-  background-image: url("../images/exp-bg.png");
+  background: url("./images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
