@@ -5,19 +5,33 @@ body {
   font-family: "Arima", cursive;
   font-family: "Great Vibes", cursive;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
 }
 .name-highLight {
-  color: orange;
+  color: rgb(105, 105, 250);
+}
+.dream-highLight {
+  color: rgb(234, 180, 81);
 }
 .container {
   display: flex;
+  margin-bottom: 100px;
+}
+.top-banner {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-area {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .article-space {
   width: 50%;
-  padding: 0 400px 0 100px;
+  padding: 0 400px 0 200px;
 }
 .images-space {
   padding: 10px 100px 0 5px;
@@ -31,4 +45,11 @@ h1 {
   background-image: linear-gradient(135deg, rgb(105, 105, 250), blueviolet);
   border-radius: 5px;
   color: aliceblue;
+}
+.resume-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(135deg, orange, tomato);
 }
