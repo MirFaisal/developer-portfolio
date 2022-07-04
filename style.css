@@ -26,7 +26,7 @@ h1 {
   background-repeat: no-repeat;
 }
 .dream-section {
-  background: url("./images/dream-bg.png");
+  background: url("/images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -36,7 +36,7 @@ h1 {
 .experience-area {
   width: 100%;
   margin: auto;
-  background: url("./images/exp-bg.png");
+  background: url("/images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
